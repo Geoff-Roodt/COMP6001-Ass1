@@ -31,7 +31,7 @@ It is imperative that when you create controls, they are appropriately sized. Th
 Once again, we need to keep in mind the clear, deference and depth factors when planning the GUI and associated UI Elements. That means that we must create controls which can accurately and easily be touched by the user!  
 
 
-![alt text] (https://devimages-cdn.apple.com/design/tips/images/interactivity-hit-areas.png "Hit Target Best Practice")
+![alt text](https://devimages-cdn.apple.com/design/tips/images/interactivity-hit-areas.png "Hit Target Best Practice")
 
 ## Text Size
 > "Text should be at least 11 points so it's legible at a typical viewing distance without zooming." - Apple  
