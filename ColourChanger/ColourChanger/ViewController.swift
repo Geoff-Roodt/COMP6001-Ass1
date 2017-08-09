@@ -10,10 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var textViewInfo: UITextView!
+    @IBOutlet weak var btnSet: UIButton!
     @IBOutlet weak var btnReset: UIButton!
-    @IBOutlet weak var btnInstructions: UIButton!
-    @IBOutlet weak var textError: UILabel!
+    @IBOutlet weak var viewColorBox: UIView!
     
     @IBOutlet weak var sldrRed: UISlider!
     @IBOutlet weak var sldrBlue: UISlider!
@@ -27,8 +26,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        textError.text = ""
-        textViewInfo.isHidden = true
+        btnSet.layer.masksToBounds = true
+        btnSet.layer.cornerRadius = 5
+        btnSet.layer.borderWidth = 1
+        btnSet.layer.borderColor = UIColor.black.cgColor
+        
+        btnReset.layer.masksToBounds = true
+        btnReset.layer.cornerRadius = 5
+        btnReset.layer.borderWidth = 1
+        btnReset.layer.borderColor = UIColor.black.cgColor
+        
+        viewColorBox.layer.masksToBounds = true
+        viewColorBox.layer.cornerRadius = 5
+        viewColorBox.layer.borderWidth = 1
+        viewColorBox.layer.borderColor = viewColorBox.backgroundColor?.cgColor
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,20 +48,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btnReset(_ sender: Any) {
-        view.backgroundColor = UIColor.white
-        textViewInfo.textColor = UIColor.black
-        textError.text = ""
+        viewColorBox.backgroundColor = UIColor.black
+        viewColorBox.layer.borderColor = UIColor.black.cgColor
         sldrRed.value = 0
         sldrGreen.value = 0
         sldrBlue.value = 0
-        textViewInfo.isHidden = true
         lblRed.text = "0"
         lblGreen.text = "0"
         lblBlue.text = "0"
-    }
-
-    @IBAction func btnInstructions(_ sender: Any) {
-        textViewInfo.isHidden = !textViewInfo.isHidden
     }
 
     @IBAction func btnSetColour(_ sender: Any) {
@@ -58,7 +63,8 @@ class ViewController: UIViewController {
         let greenCol = CGFloat(round(sldrGreen.value)/255)
         let blueCol = CGFloat(round(sldrBlue.value)/255)
         
-        view.backgroundColor = UIColor(red: redCol, green: greenCol, blue: blueCol, alpha: 1.0)
+        viewColorBox.backgroundColor = UIColor(red: redCol, green: greenCol, blue: blueCol, alpha: 1.0)
+        viewColorBox.layer.borderColor = viewColorBox.backgroundColor?.cgColor
         
     }
     @IBAction func slrdRedChanged(_ sender: UISlider) {
