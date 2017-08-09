@@ -70,8 +70,9 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="oq1-7m-6sB">
                                 <rect key="frame" x="5" y="297" width="118" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="minimumTrackTintColor" red="0.066328696154162384" green="0.066416652614215005" blue="0.067357512953367893" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="thumbTintColor" red="0.52036536294742342" green="0.52105540357708491" blue="0.52843669041450769" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="minimumTrackTintColor" red="0.99997976040000003" green="0.039669627169999999" blue="0.041728965149999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="maximumTrackTintColor" red="0.78230246110000001" green="0.031034275090000001" blue="0.032645332870000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="thumbTintColor" red="0.99997976040000003" green="0.039669627169999999" blue="0.041728965149999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="slrdRedChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Wfc-de-gMH"/>
                                 </connections>
@@ -79,8 +80,9 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="Rea-8F-M5q">
                                 <rect key="frame" x="127" y="297" width="118" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="minimumTrackTintColor" red="0.066328696154162384" green="0.066416652614215005" blue="0.067357512953367893" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="thumbTintColor" red="0.52036536294742342" green="0.52105540357708491" blue="0.52843669041450769" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="minimumTrackTintColor" red="0.30199409651927145" green="0.92738018134715028" blue="0.30697806383584253" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="maximumTrackTintColor" red="0.027891404586917617" green="0.70992551813471505" blue="0.022999825568716679" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="thumbTintColor" red="0.30199409649999998" green="0.92738018129999999" blue="0.30697806379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="sldrGreenChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="zXV-b4-ac7"/>
                                 </connections>
@@ -88,8 +90,9 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="OnU-xl-Yzd">
                                 <rect key="frame" x="251" y="297" width="118" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="minimumTrackTintColor" red="0.066328696154162384" green="0.066416652614215005" blue="0.067357512953367893" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="thumbTintColor" red="0.52036536294742342" green="0.52105540357708491" blue="0.52843669041450769" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="minimumTrackTintColor" red="0.1184890348885993" green="0.66051674780563174" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="maximumTrackTintColor" red="0.08781397730156737" green="0.48951873693326625" blue="0.74111479922279799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="thumbTintColor" red="0.1184890349" green="0.66051674780000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="sldrBlueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="j0f-Wv-m8v"/>
                                 </connections>
