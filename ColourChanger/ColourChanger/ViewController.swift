@@ -48,14 +48,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btnReset(_ sender: Any) {
-        viewColorBox.backgroundColor = UIColor.black
-        viewColorBox.layer.borderColor = UIColor.black.cgColor
-        sldrRed.value = 0
-        sldrGreen.value = 0
-        sldrBlue.value = 0
-        lblRed.text = "0"
-        lblGreen.text = "0"
-        lblBlue.text = "0"
+        viewColorBox.backgroundColor = UIColor.white
+        viewColorBox.layer.borderColor = UIColor.white.cgColor
+        sldrRed.value = 255
+        sldrGreen.value = 255
+        sldrBlue.value = 255
+        lblRed.text = String(Int(sldrRed.value))
+        lblGreen.text = String(Int(sldrGreen.value))
+        lblBlue.text = String(Int(sldrBlue.value))
     }
 
     @IBAction func btnSetColour(_ sender: Any) {
